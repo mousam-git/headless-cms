@@ -1,0 +1,46 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.todo-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-card > button {
+  border: none;
+  border-radius: 3px;
+  margin-left: 2em;
+  font-size: 1.5em;
+  color: #57cc99;
+  background-color: #ffffff;
+}
+
+.todo-card > button:hover {
+  background-color: grey;
+}
+
+.todo {
+  font-size: 1.4rem;
+}
+
+.completed {
+  text-decoration: line-through;
+}
